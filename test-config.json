@@ -1,0 +1,52 @@
+{
+  "backend": {
+    "baseUrl": "http://localhost:7077",
+    "websocketUrl": "ws://localhost:7077",
+    "endpoints": {
+      "register": "/api/PushNotification/register",
+      "send": "/api/PushNotification/send",
+      "pending": "/api/WebSocket/pending",
+      "websocket": "/api/WebSocket/connect"
+    }
+  },
+  "testData": {
+    "deviceRegistration": {
+      "token": "test-device-token-123",
+      "deviceId": "android-test-device",
+      "platform": 0,
+      "preferredCity": "Amsterdam",
+      "subscribeToSpeedUpdates": true,
+      "subscribeToEventReminders": true,
+      "subscribeToSoldOutAlerts": true,
+      "subscribeToFavouriteUpdates": true
+    },
+    "notifications": {
+      "speedUpdate": {
+        "title": "New Speed Update",
+        "body": "Check out the latest update in Amsterdam",
+        "type": "speed_update",
+        "priority": 2,
+        "data": "{\"speedUpdateId\": 123, \"city\": \"Amsterdam\", \"company\": \"TestCompany\"}"
+      },
+      "soldOutAlert": {
+        "title": "Item Sold Out",
+        "body": "Your favorite item is now sold out",
+        "type": "sold_out_alert",
+        "priority": 1,
+        "data": "{\"itemId\": 456, \"itemName\": \"Test Item\"}"
+      },
+      "favouriteUpdate": {
+        "title": "Favourite Updated",
+        "body": "One of your favourites has been updated",
+        "type": "favourite_update",
+        "priority": 2,
+        "data": "{\"favouriteId\": 789, \"updateType\": \"price_change\"}"
+      }
+    }
+  },
+  "settings": {
+    "pollingIntervalMs": 30000,
+    "reconnectDelayMs": 5000,
+    "websocketTimeoutMs": 30000
+  }
+}

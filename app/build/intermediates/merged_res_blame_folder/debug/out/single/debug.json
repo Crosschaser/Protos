@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "com.example.protosApp.app-merged_res-35:/drawable_ic_delete.xml.flat",
+        "source": "com.example.protosApp.app-main-37:/drawable/ic_delete.xml"
+    },
+    {
+        "merged": "com.example.protosApp.app-merged_res-35:/layout_activity_sold_out.xml.flat",
+        "source": "com.example.protosApp.app-main-37:/layout/activity_sold_out.xml"
+    },
+    {
+        "merged": "com.example.protosApp.app-merged_res-35:/layout_item_birthday_crud.xml.flat",
+        "source": "com.example.protosApp.app-main-37:/layout/item_birthday_crud.xml"
+    },
+    {
+        "merged": "com.example.protosApp.app-merged_res-35:/xml_network_security_config.xml.flat",
+        "source": "com.example.protosApp.app-main-37:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.example.protosApp.app-merged_res-35:/layout_item_speed_update.xml.flat",
+        "source": "com.example.protosApp.app-main-37:/layout/item_speed_update.xml"
+    },
+    {
+        "merged": "com.example.protosApp.app-merged_res-35:/layout_activity_birthday_management.xml.flat",
+        "source": "com.example.protosApp.app-main-37:/layout/activity_birthday_management.xml"
+    },
+    {
+        "merged": "com.example.protosApp.app-merged_res-35:/layout_activity_home.xml.flat",
+        "source": "com.example.protosApp.app-main-37:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.example.protosApp.app-merged_res-35:/menu_menu_home_drawer.xml.flat",
+        "source": "com.example.protosApp.app-main-37:/menu/menu_home_drawer.xml"
+    },
+    {
+        "merged": "com.example.protosApp.app-merged_res-35:/drawable_badge_background.xml.flat",
+        "source": "com.example.protosApp.app-main-37:/drawable/badge_background.xml"
+    },
+    {
+        "merged": "com.example.protosApp.app-merged_res-35:/layout_activity_speed_update.xml.flat",
+        "source": "com.example.protosApp.app-main-37:/layout/activity_speed_update.xml"
+    },
+    {
+        "merged": "com.example.protosApp.app-merged_res-35:/layout_activity_main.xml.flat",
+        "source": "com.example.protosApp.app-main-37:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.protosApp.app-merged_res-35:/drawable_card_background.xml.flat",
+        "source": "com.example.protosApp.app-main-37:/drawable/card_background.xml"
+    },
+    {
+        "merged": "com.example.protosApp.app-merged_res-35:/layout_item_birthday.xml.flat",
+        "source": "com.example.protosApp.app-main-37:/layout/item_birthday.xml"
+    },
+    {
+        "merged": "com.example.protosApp.app-merged_res-35:/drawable_ic_launcher.xml.flat",
+        "source": "com.example.protosApp.app-main-37:/drawable/ic_launcher.xml"
+    }
+]
