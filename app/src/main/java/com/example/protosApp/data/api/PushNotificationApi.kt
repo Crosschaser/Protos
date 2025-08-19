@@ -7,6 +7,7 @@ import com.example.protosApp.data.models.PendingNotificationsResponse
 import com.example.protosApp.data.models.BirthdayResponse
 import com.example.protosApp.data.models.SpeedUpdateResponse
 import com.example.protosApp.data.models.BirthdayCrud
+import com.example.protosApp.data.models.UpdateIsSoldOutRequest
 import retrofit2.Call
 import retrofit2.http.Body
 import retrofit2.http.GET
@@ -58,4 +59,8 @@ interface PushNotificationApi {
     // Optional: list all birthdays (needed for swipe-to-delete/update by ID)
     @GET("birthdays")
     fun listBirthdays(): Call<List<BirthdayCrud>>
+
+    // SpeedUpdate endpoints
+    @POST("SpeedUpdate/UpdateEventIsSoldOut")
+    fun updateEventIsSoldOut(@Body request: UpdateIsSoldOutRequest): Call<Void>
 }
