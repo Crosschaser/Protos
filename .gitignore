@@ -1,2 +1,5 @@
 ﻿*.lock
 .idea/libraries
+app/build/intermediates/incremental/debug
+.gradle
+app
